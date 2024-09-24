@@ -1,0 +1,440 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    
+    width: 100%;
+    
+   
+}
+.head1{
+    display: flex;
+    padding: 10px 0px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(0, 0,0,0.8);
+}
+.head2{
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+}
+.head2 > img{
+    width: 40px;
+}
+.head2E{
+    display: flex;
+    width: 50%;
+    color: white;
+    justify-content: space-around;
+}
+.head2E :nth-child(6){
+    border: 2px solid yellow;
+    padding: 2px;
+    border-radius: 5px;
+}
+#yellow{
+    color: yellow;
+}
+main{
+    
+    width: 100%;
+    height: 100vh;
+}
+
+ video{
+     height:100%;
+     width:100%;
+     position:relative;
+     top:0;
+     left:0;
+     object-fit: cover;
+     /* z-index: -1; */
+        
+}
+
+
+.H1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    bottom: 90%;
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+.H2{
+    display: flex;
+    position: relative;
+    bottom: 30%;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.H2 :nth-child(2){
+    text-decoration: underline;
+    color: yellow;
+}
+#PANEL2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: url(2p.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: start;
+    align-items: center;
+    padding: 5% 0%;
+    background-color: #000;
+}
+.PANEL2Head{
+    padding-left: 10%;
+}
+.PANEL2Head p{
+    color: white;
+}
+.PANEL2Head h1{
+    color: yellow;
+}
+.b3{
+    width: 100%;
+    height: auto;
+    background: #000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.b3{
+    height: auto;
+    width: 100%;
+    display: grid;  
+    grid-template-columns: auto auto auto;
+    padding-left: 10%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    grid-gap: 10px;
+}
+#lone{
+    height: 60px;
+    width: auto;
+}
+.back3 img{
+    height: 60px;
+    width: auto;
+}
+.PANEL3{
+    display: flex;
+    flex-direction: column;
+    background-image: url(p33backgroundImg.png);
+    width: 100%;
+    padding: 5% 0%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.PANEL3Click{
+    display: flex;
+    flex-direction: row;
+}
+.PANEL3 > h2{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 10%;
+}
+.PANEL3 > h1{
+    color: yellow;
+    font-size: 2rem;
+    padding-left: 10%;
+}
+.PANEL3 > p{
+    color: white;
+    padding-left: 10%;
+}
+.PANEL3Click{
+    padding-left: 10%;
+}
+.PANEL3Click > p{
+    color: white;
+    
+}
+.PANELfour{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+}
+.PANELfour1{
+    height: auto;
+    width: 48%;   
+}
+.PANELfour1 img{
+    height: auto;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.PANELfour2{
+    height: auto;
+    width: 48%;
+    color: aliceblue;
+}
+.PANELfour2 h2{
+    color: yellow;
+}
+.percentages{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.ei{
+    color: yellow;
+}
+#page5{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 5%;
+    justify-content: center;
+    color: yellow;
+    align-items: center;
+    background-image: url(page5background.png);
+    background-color: black;
+}
+
+.PANEL5{
+    display: grid;
+    width: 80%;
+    padding: 5% 0%;
+    grid-template-columns: 28% 24% 24% 24%;
+    grid-gap: 2%;
+}
+.PANEL5div{
+    display: flex;
+    flex-direction: column;
+}
+.PANEL5div > p{
+    color: white;
+    
+}
+
+#line{
+    border-bottom: 2px solid white;
+}
+#PANEL5id1 > h3{
+    color: yellow;
+    font-size: 1.5rem;
+}
+#PANEL5id3 > h3{
+    color: yellow;
+    font-size: 1.5rem;
+}
+#buttonYellow{
+    background-color: yellow;
+}
+button{
+    padding: 5px 0px;
+}
+
+#PANEL5id3{
+    display: flex;
+    padding: 0px 10px;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+}
+
+#PANEL5id2{
+    opacity: 0.5;
+    color: white;
+}
+
+#PANEL5id2 > h3{
+    color: white;
+    font-size: 1.5rem;
+}
+#overline{
+    text-decoration: line-through;
+
+}
+.dollar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#dollar:nth-child(3){
+    color: white;
+}
+.included{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+#page6{
+    display: flex;
+    width: 100%;
+    padding: 5% 0%;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.PANEL6{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 5% 0%;
+    width: 80%;
+    opacity: 0.8;
+}
+.PANEL6E{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    text-align: center;
+}
+#PANEL61{
+    border-left: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+}
+#PANEL6{
+    border-bottom: 2px solid yellow;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+}
+#PANEL62{
+    border-left: 2px solid yellow;
+}
+#PANEL63{
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+}
+.PANEL6E > img{
+    width: 40px;
+}
+.PANEL6E:hover{
+    color: white
+}
+.freerectangle{
+    background:linear-gradient(90deg,rgb(205, 139, 17),black,black);
+    height:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data>h2{
+    color: white;
+    font-size: 40px;
+    position:relative;
+    margin-left: 55px;
+}
+.data>p{
+    color:white;
+}
+.data>button{
+    background: #FFA800;
+    height:40px;
+    width:140px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.trya{
+    background-color: #000;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    
+}
+.contact{
+    height: auto;
+    width: 80%;
+    border: 2px dashed yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5%;
+    
+}
+.contact h1{
+    color: yellow;
+}
+.con1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 20%;
+    
+}
+.in{
+    height: auto;
+    width: 80%;
+    border: 1px dashed yellow;
+    padding: 4px 10px;
+}
+input{
+    background: transparent;
+    border: none ;
+}
+button{
+    background-color: yellow;
+    color: #000;
+    padding: 4px 10px;
+}
+FOOTER{
+    display: flex;
+    width: 100%;
+    padding: 5% 0%;
+    background-color: black;
+    justify-content: space-around;
+}
+.FOOTER1{
+    
+    width: 38%;
+    padding-left: 8%;
+}
+.FOOTER2{
+    width: 58%;
+}
+.FOOTER1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.FOOTER1 > img {
+    width: 45%;
+}
+.FOOTER2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5%;
+    color: white;
+
+}
+.FOOTER{
+    display: flex;
+    flex-direction: column;
+}
+
